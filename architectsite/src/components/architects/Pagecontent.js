@@ -7,13 +7,13 @@ import Projects from './Projects'
 function Pagecontent() {
     return (
         <>
-            <div className="w3-content w3-padding" style={{ maxWidth: 1564 }}></div>
-            <Projects></Projects>
-            <About></About>
-            <Contact></Contact>
-            <Location></Location>
-            
+            <div className="w3-content w3-padding" style={{ maxWidth: 1564 }}>
+                <Projects></Projects>
+                <About></About>
+                <Contact></Contact>
+                <Location></Location>
 
+            </div>
 
         </>
     )

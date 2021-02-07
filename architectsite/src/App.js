@@ -7,14 +7,14 @@ import Pagecontent from './components/architects/Pagecontent';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
+    <>
+      <Navbar title="Architects"></Navbar>
       <Header></Header>
 
       <Pagecontent></Pagecontent>
 
       <Footer></Footer>
-    </div>
+    </>
   );
 }
 
