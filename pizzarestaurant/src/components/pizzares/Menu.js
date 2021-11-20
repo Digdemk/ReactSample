@@ -7,7 +7,7 @@ function Menu() {
                 <div className="w3-content">
                     <h1 className="w3-center w3-jumbo" style={{ marginBottom: 64 }}>THE MENU</h1>
                     <div className="w3-row w3-center w3-border w3-border-dark-grey">
-                        <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+                        <a href="javascript:void(0)" onClick={openMenu(event, 'Pizza')} id="myLink">
                             <div className="w3-col s4 tablink w3-padding-large w3-hover-red">Pizza</div>
                         </a>
                         <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">

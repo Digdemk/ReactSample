@@ -1,6 +1,9 @@
 import React from 'react'
 
 function Contact() {
+
+    
+
     return (
         <>
             <div className="w3-container w3-padding-32" id="contact">
